@@ -1,19 +1,25 @@
-"""TIPOS DE DATOS"""
+"""Tipos de datos"""
+"""Boleanos: bool"""
 
-"""BOOL"""
+"""Creando variables"""
 
 var1 = True
 var2 = False
-var3 = []
-var4 = 0
 
-print("El valor de la variable 1 es: {}".format(var1))
-print("El valor de la variable 2 es: {}".format(var2))
-print("El valor de la variable 3 es: {}".format(var3))
-print("El valor de la variable 4 es: {}".format(var4))
+var3 = []
+var4 = 1
+
+print("El valor de mi variable var1 es: {}".format(var1))
+print("El valor de mi variable var2 es: {}".format(var2))
 
 if var1:
-    print("Hi, Python")
-
+    print("Hi Pythonistas!")
 if var2:
-    print("Hola, Python")
+    print("Hola Pythonistas!")
+
+if var3:
+    print("Hola Pythonistas 3!")
+
+if var4:
+    print("Hola Pythonistas! 4")
+
